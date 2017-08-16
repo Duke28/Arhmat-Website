@@ -316,8 +316,8 @@ blockquote {
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #A9CC6C;
+	border-color: #A9CC6C;
 }
 
 /* Collapse
@@ -425,9 +425,12 @@ textarea {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
+	width: 80%; /* respsonsive width */
+    /*margin-left:-40%;*//* width/2) */
+	margin: auto;
 }
 .modal-header {
-	background-color: #55acee;
+	background-color: #A9CC6C;
 	color: #ffffff;
 }
 .modal-header h4 {
